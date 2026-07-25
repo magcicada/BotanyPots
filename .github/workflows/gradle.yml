@@ -25,7 +25,7 @@ jobs:
 
       - name: Build with Gradle
         env:
-          BUILD_NUMBER: "207"
+          BUILD_NUMBER: "44"
         run: ./gradlew build
 
       - name: Upload Artifact
